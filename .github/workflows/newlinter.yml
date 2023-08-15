@@ -10,7 +10,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-         - name: Run New-Linter
+         - name:Run New-Linter
           uses:github/new-linter@v3
           env;
             DEFAULT_BRANCH:main
