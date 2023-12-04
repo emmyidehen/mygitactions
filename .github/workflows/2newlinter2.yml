@@ -1,4 +1,4 @@
-name: New-Linter
+name: New-Linter2
 
 on: push
 
@@ -12,3 +12,4 @@ jobs:
           env;
           DEFAULT_BRANCH:main
           GITHUB_TOKEN:${{ secrets.GITHUB_TOKEN }}
+
